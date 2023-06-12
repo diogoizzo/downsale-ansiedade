@@ -15,7 +15,11 @@ module.exports = {
                 },
                 azulclaro: {
                     100: "#EEF0FB",
-                    500: "#1D267D",
+                    200: "#CDD3F3",
+                    300: "#9CA8E7",
+                    500: "#3A53CF",
+                    700: "#2C43B5",
+                    900: "#1D267D",
                 },
                 violeta: {
                     50: "#F5EBFE",

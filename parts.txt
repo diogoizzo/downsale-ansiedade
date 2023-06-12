@@ -1,0 +1,79 @@
+<div class="flex flex-wrap -m-6 mt-14">
+                    <div class="w-full md:w-1/2 p-6">
+                        <div class="">
+                            <h2
+                                class="mb-6 font-semibold text-5xl text-azulescuro-900"
+                            >
+                                Try our app
+                            </h2>
+                            <p
+                                class="mb-11 text-azulescuro-200 text-lg"
+                            >
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Malesuada tellus vestibulum,
+                                commodo pulvinar.
+                            </p>
+                            <div
+                                class="flex flex-wrap -m-2 mb-6"
+                            >
+                                <div class="w-auto p-2">
+                                    <img
+                                        src="/src/assets/check.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="flex-1 p-2">
+                                    <h3
+                                        class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    >
+                                        Control Everything
+                                        Easily
+                                    </h3>
+                                    <p
+                                        class="text-azulescuro-200 text-base"
+                                    >
+                                        Amet minim mollit
+                                        non deserunt ullamco
+                                        est sit aliqua dolor
+                                        do amet sint velit
+                                        officia.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-wrap -m-2 mb-14"
+                            >
+                                <div class="w-auto p-2">
+                                    <img
+                                        src="/src/assets/check.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="flex-1 p-2">
+                                    <h3
+                                        class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    >
+                                        Build Your Team
+                                    </h3>
+                                    <p
+                                        class="text-azulescuro-200 text-base"
+                                    >
+                                        Amet minim mollit
+                                        non deserunt ullamco
+                                        est sit aliqua dolor
+                                        do amet sint velit
+                                        officia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            class="w-full md:w-1/2 p-6"
+                            src="/src/assets/bonus1.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
