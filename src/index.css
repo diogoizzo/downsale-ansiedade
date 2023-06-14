@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
 @layer components {
     .text-shadow-blue {
         text-shadow: 3px 3px 4px #00008f;
