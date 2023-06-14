@@ -12,8 +12,12 @@
             content="width=device-width, initial-scale=1.0"
         />
         <link rel="stylesheet" href="/src/index.css" />
-        <script src="/src/main.js"></script>
-        <title>Vite App</title>
+        <script
+            src="/src/main.js"
+            type="module"
+            defer
+        ></script>
+        <title>100 ansiedade</title>
     </head>
     <body class="bg-azulclaro-100">
         <section
@@ -56,57 +60,57 @@
                     >
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#sobre"
                                 >Sobre</a
                             >
                         </li>
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#solucao"
                                 >Solução</a
                             >
                         </li>
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#beneficios"
                                 >Benefícios</a
                             >
                         </li>
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#depoimentos"
                                 >Depoimentos</a
                             >
                         </li>
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#promocao"
                                 >Promoção</a
                             >
                         </li>
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#bonus"
                                 >Bônus</a
                             >
                         </li>
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#garantia"
                                 >Garantia</a
                             >
                         </li>
                         <li>
                             <a
-                                class="text-violeta-200 hover:text-violeta-300 text-sm"
-                                href="#"
+                                class="text-violeta-200 hover:text-violeta-300 text-lg"
+                                href="#perguntas"
                                 >Perguntas Frequentes</a
                             >
                         </li>
@@ -122,7 +126,7 @@
                             class="text-violeta-100 mb-8 text-3xl lg:text-6xl font-bold"
                         >
                             O segredo oculto para uma vida
-                            extraordinária.
+                            sem ansiedade.
                         </h2>
                         <p
                             class="text-violeta-200 mb-10 text-2xl"
@@ -227,7 +231,7 @@
                         class="text-azulescuro-900 mb-8 mt-6 text-3xl lg:text-6xl font-bold"
                     >
                         Domine sua ansiedade
-                        <span class="block"
+                        <span class="text-violet-700 block"
                             >domine sua vida!</span
                         >
                     </h2>
@@ -241,10 +245,18 @@
                     </p>
                     <div class="mb-11 md:inline-block">
                         <button
-                            class="focus:ring-violeta-300 hover:bg-violeta-900 shadow-violeta-500/80 border-violeta-900 text-violeta-50 bg-violeta-800 shadow-xl py-4 px-6 w-full font-semibold border rounded-xl focus:ring transition ease-in-out duration-200"
+                            class="focus:ring-violeta-300 leading-[15px] hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl shadow-violeta-500/80 pt-2 pb-5 px-6 font-semibold border rounded-2xl focus:ring transition ease-in-out duration-200"
                             type="button"
                         >
-                            Inscreva-se agora
+                            <span
+                                class="text-lg text-violeta-200"
+                                >Preciso Mudar de Vida</span
+                            >
+                            <span
+                                class="text-shadow-violeta block text-2xl uppercase leading-[15px]"
+                                >Quero vencer a
+                                ansiedade</span
+                            >
                         </button>
                     </div>
                     <div
@@ -292,6 +304,7 @@
             </div>
         </section>
         <section
+            id="sobre"
             class="bg-azulclaro-900 py-10 overflow-hidden"
         >
             <div
@@ -378,7 +391,7 @@
                     alt=""
                 />
                 <h2
-                    class="max-w-6xl mt-3 mb-3 text-4xl text-azulclaro-200 text-center font-semibold mx-auto"
+                    class="max-w-6xl mt-3 mb-3 text-4xl text-azulclaro-100 text-center font-semibold mx-auto"
                 >
                     Imagine, por um momento, como seria
                     acordar todas as manhãs com uma sensação
@@ -393,8 +406,23 @@
                     >
                 </h2>
             </div>
+            <div class="w-full text-center mt-10 mb-3">
+                <button
+                    class="focus:ring-violeta-300 leading-[15px] hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl shadow-azulescuro-900/80 pt-2 pb-5 px-6 font-semibold border rounded-2xl focus:ring transition ease-in-out duration-200"
+                    type="button"
+                >
+                    <span class="text-lg text-violeta-200"
+                        >Preciso Mudar de Vida</span
+                    >
+                    <span
+                        class="text-shadow-violeta block text-2xl uppercase leading-[15px]"
+                        >Quero vencer a ansiedade</span
+                    >
+                </button>
+            </div>
         </section>
         <section
+            id="solucao"
             class="pt-24 pb-28 bg-white"
             style="
                 background-image: url('/src/assets/wave.svg');
@@ -408,11 +436,9 @@
                 class="-mt-[120px] drop-shadow-lg rotate-90 h-28 mx-auto"
             />
             <div class="container px-4 mx-auto">
-                <div
-                    class="lg:max-w-7xl mb-12 mx-auto text-center"
-                >
+                <div class="mb-12 mx-auto text-center">
                     <h1
-                        class="mb-4 text-3xl lg:text-6xl font-semibold leading-tight tracking-tighter mt-3 text-azulescuro-900"
+                        class="mb-4 text-3xl lg:text-6xl font-semibold leading-tight tracking-tighter mt-3 text-violet-700"
                     >
                         Descubra o Caminho para uma Vida Sem
                         Ansiedade
@@ -424,7 +450,7 @@
                         </span>
                     </h1>
                     <p
-                        class="text-lg md:text-xl mt-6 font-medium text-azulescuro-200"
+                        class="text-lg md:text-2xl mt-6 text-azulescuro-200"
                     >
                         Prepare-se para embarcar em uma
                         jornada de transformação e
@@ -475,7 +501,7 @@
                                 Video aulas gravadas
                             </h3>
                             <p
-                                class="font-medium text-azulescuro-500"
+                                class="text-lg text-azulescuro-500"
                             >
                                 Aprenda no seu ritmo com
                                 nosso curso em formato de
@@ -511,7 +537,7 @@
                                 E-book completo
                             </h3>
                             <p
-                                class="font-medium text-azulescuro-500"
+                                class="text-lg text-azulescuro-500"
                             >
                                 Tenha em mãos um guia
                                 completo para o controle da
@@ -562,7 +588,7 @@
                                 Técnicas de respiração
                             </h3>
                             <p
-                                class="text-azulescuro-500 font-medium"
+                                class="text-azulescuro-500 text-lg"
                             >
                                 Aprenda técnicas de
                                 respiração comprovadas para
@@ -599,7 +625,7 @@
                                 Técnicas de meditação
                             </h3>
                             <p
-                                class="text-azulescuro-500 font-medium"
+                                class="text-azulescuro-500 text-lg"
                             >
                                 Descubra o poder da
                                 meditação para acalmar a
@@ -643,7 +669,7 @@
                                 Coleção de sons bineurais
                             </h3>
                             <p
-                                class="text-azulescuro-500 font-medium"
+                                class="text-azulescuro-500 text-lg"
                             >
                                 Experimente os efeitos
                                 poderosos dos sons
@@ -684,7 +710,7 @@
                                 Coleção de sons white noise
                             </h3>
                             <p
-                                class="text-azulescuro-500 font-medium"
+                                class="text-azulescuro-500 text-lg"
                             >
                                 Encontre conforto e
                                 tranquilidade com nossa
@@ -724,7 +750,7 @@
                                 Meditações guiadas
                             </h3>
                             <p
-                                class="text-azulescuro-500 font-medium"
+                                class="text-azulescuro-500 text-lg"
                             >
                                 Permita-se ser conduzido(a)
                                 em jornadas de tranquilidade
@@ -743,7 +769,7 @@
                 </div>
             </div>
         </section>
-        <section class="-mt-20">
+        <section class="-mt-20" id="beneficios">
             <div class="skew skew-top mr-for-radius">
                 <svg
                     class="h-8 md:h-12 lg:h-20 w-full text-azulescuro-900"
@@ -785,7 +811,7 @@
                                     Ansiedade
                                 </h2>
                                 <p
-                                    class="text-violeta-200 text-xl mt-6"
+                                    class="text-violeta-200 text-2xl font-normal mt-6"
                                 >
                                     Desvende os segredos
                                     para vencer a ansiedade
@@ -823,7 +849,9 @@
                             >
                                 Recupere sua paz interior
                             </h3>
-                            <p class="text-violeta-200">
+                            <p
+                                class="text-violeta-200 text-xl"
+                            >
                                 Aprenda técnicas comprovadas
                                 para recuperar sua paz
                                 interior e encontrar
@@ -848,7 +876,7 @@
                                 momentos críticos
                             </h3>
                             <p
-                                class="text-violeta-200 mb-10"
+                                class="text-violeta-200 text-xl mb-10"
                             >
                                 Desenvolva estratégias
                                 eficazes para superar a
@@ -875,7 +903,9 @@
                                 Aumente sua energia e
                                 vitalidade
                             </h3>
-                            <p class="text-violeta-200">
+                            <p
+                                class="text-violeta-200 text-xl"
+                            >
                                 Descubra como a ansiedade
                                 pode drenar sua energia e
                                 aprenda técnicas para
@@ -899,7 +929,9 @@
                                 Relacionamentos mais
                                 saudáveis e significativos
                             </h3>
-                            <p class="text-violeta-200">
+                            <p
+                                class="text-violeta-200 text-xl"
+                            >
                                 A ansiedade pode afetar
                                 negativamente seus
                                 relacionamentos pessoais.
@@ -924,7 +956,9 @@
                                 Desenvolva resiliência
                                 emocional
                             </h3>
-                            <p class="text-violeta-200">
+                            <p
+                                class="text-violeta-200 text-xl"
+                            >
                                 Torne-se emocionalmente
                                 resiliente ao aprender
                                 técnicas que o(a) ajudarão a
@@ -949,7 +983,9 @@
                                 Tenha mais controle sobre
                                 sua mente
                             </h3>
-                            <p class="text-violeta-200">
+                            <p
+                                class="text-violeta-200 text-xl"
+                            >
                                 Aprenda a dominar sua mente
                                 e direcionar seus
                                 pensamentos para um estado
@@ -977,7 +1013,9 @@
                     ></polygon>
                 </svg>
             </div>
-            <div class="skew skew-bottom ml-for-radius">
+            <div
+                class="skew skew-bottom ml-for-radius relative z-20"
+            >
                 <svg
                     class="h-8 md:h-12 lg:h-20 w-full text-azulescuro-900"
                     viewbox="0 0 10 10"
@@ -991,13 +1029,14 @@
             </div>
         </section>
         <section
-            class="md:pb-24 relative pt-16 overflow-hidden"
+            id="bonus"
+            class="md:pb-24 relative pt-36 overflow-hidden bg-cover bg-[url('/src/assets/wave.svg')] -mt-20 z-10"
         >
             <div
                 class="container mx-auto px-4 relative z-0 bg-transparent"
             >
                 <h2
-                    class="mx-auto text-center text-3xl lg:text-6xl font-semibold text-azulescuro-900"
+                    class="mx-auto text-center text-3xl lg:text-6xl font-semibold text-violet-700"
                 >
                     Supere Limites
                     <span
@@ -1008,7 +1047,7 @@
                     </span>
                 </h2>
                 <p
-                    class="text-azulescuro-200 max-w-7xl text-xl mt-6 text-center mx-auto"
+                    class="text-azulescuro-200 text-2xl mt-6 text-center mx-auto"
                 >
                     Prepare-se para uma experiência
                     extraordinária! Receba uma coleção única
@@ -1031,7 +1070,7 @@
                             positivo
                         </h2>
                         <p
-                            class="mb-11 text-azulescuro-200 text-lg"
+                            class="mb-11 text-azulescuro-200 text-2xl"
                         >
                             Você terá acesso a uma poderosa
                             fonte de sabedoria e práticas
@@ -1055,14 +1094,14 @@
                             </div>
                             <div class="flex-1 p-2">
                                 <h3
-                                    class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    class="font-heading mb-3 font-bold text-2xl text-azulescuro-900"
                                 >
                                     Sete maneiras de
                                     impulsionar uma
                                     mentalidade positiva
                                 </h3>
                                 <p
-                                    class="text-azulescuro-200 text-base"
+                                    class="text-azulescuro-200 text-xl"
                                 >
                                     Você descobrirá sete
                                     estratégias poderosas
@@ -1091,13 +1130,13 @@
                             </div>
                             <div class="flex-1 p-2">
                                 <h3
-                                    class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    class="font-heading mb-3 font-bold text-2xl text-azulescuro-900"
                                 >
                                     Enfrentando a rejeição
                                     positivamente
                                 </h3>
                                 <p
-                                    class="text-azulescuro-200 text-base"
+                                    class="text-azulescuro-200 text-xl"
                                 >
                                     Você aprenderá a lidar
                                     com a rejeição de forma
@@ -1128,13 +1167,13 @@
                             </div>
                             <div class="flex-1 p-2">
                                 <h3
-                                    class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    class="font-heading mb-3 font-bold text-2xl text-azulescuro-900"
                                 >
                                     Meditação e pensamento
                                     positivo
                                 </h3>
                                 <p
-                                    class="text-azulescuro-200 text-base"
+                                    class="text-azulescuro-200 text-xl"
                                 >
                                     Você descobrirá a
                                     conexão profunda entre
@@ -1188,7 +1227,7 @@
                             Desafio sete dias de gratidão
                         </h2>
                         <p
-                            class="mb-11 text-azulescuro-200 text-lg"
+                            class="mb-11 text-azulescuro-200 text-2xl"
                         >
                             Neste e-book bônus, você será
                             guiado em uma jornada de uma
@@ -1212,12 +1251,12 @@
                             </div>
                             <div class="flex-1 p-2">
                                 <h3
-                                    class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    class="font-heading mb-3 font-bold text-2xl text-azulescuro-900"
                                 >
                                     Positividade Consciente
                                 </h3>
                                 <p
-                                    class="text-azulescuro-200 text-base"
+                                    class="text-azulescuro-200 text-xl"
                                 >
                                     A positividade
                                     consciente é a prática
@@ -1250,12 +1289,12 @@
                             </div>
                             <div class="flex-1 p-2">
                                 <h3
-                                    class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    class="font-heading mb-3 font-bold text-2xl text-azulescuro-900"
                                 >
                                     Afirmações Poderosas
                                 </h3>
                                 <p
-                                    class="text-azulescuro-200 text-base"
+                                    class="text-azulescuro-200 text-xl"
                                 >
                                     As afirmações são
                                     declarações positivas
@@ -1285,13 +1324,13 @@
                             </div>
                             <div class="flex-1 p-2">
                                 <h3
-                                    class="font-heading mb-3 font-bold text-lg text-azulescuro-900"
+                                    class="font-heading mb-3 font-bold text-2xl text-azulescuro-900"
                                 >
                                     Visualização Negativa
                                     Transformadora
                                 </h3>
                                 <p
-                                    class="text-azulescuro-200 text-base"
+                                    class="text-azulescuro-200 text-xl"
                                 >
                                     Embora possa parecer
                                     contraditório, a
@@ -1318,733 +1357,57 @@
             </div>
         </section>
         <section
-            class="relative pb-24 pt-24 lg:pb-24 overflow-hidden bg-azulescuro-900"
+            style="
+                background-image: url('/src/assets/win.jpg');
+                background-size: cover;
+                background-position: top;
+                background-repeat: no-repeat;
+            "
         >
-            <div class="relative container px-4 mx-auto">
-                <div class="max-w-7xl mx-auto">
-                    <div class="mb-24 mx-auto text-center">
-                        <h2
-                            class="text-3xl max-w-7xl lg:text-6xl font-semibold text-violeta-100 mb-6"
-                        >
-                            Mas, você não precisa acreditar
-                            em mim...
-                        </h2>
-                        <p
-                            class="text-xl text-violeta-200 tracking-tight"
-                        >
-                            Conheça as histórias
-                            inspiradoras de pessoas reais
-                            que transformaram suas vidas ao
-                            superar a ansiedade com o método
-                            "Sem Ansiedade". Nesta seção de
-                            depoimentos, você encontrará
-                            relatos autênticos e
-                            emocionantes de indivíduos que
-                            enfrentaram desafios semelhantes
-                            aos seus e encontraram a solução
-                            para viver uma vida mais plena e
-                            feliz. Deixe-se inspirar pelos
-                            relatos de superação, conquistas
-                            e crescimento pessoal, e
-                            sinta-se motivado a dar o
-                            próximo passo em direção a uma
-                            vida livre da ansiedade.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="relative">
-                <div class="flex mb-8 justify-center">
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
+            <div
+                class="container mx-auto text-center py-36"
+            >
+                <h2
+                    class="g:text-5xl mb-6 text-4xl text-violet-300 font-semibold mx-auto"
+                >
+                    Com tantos benefícios e bônus
+                    <span
+                        class="text-violeta-100 text-6xl block"
+                        >Você está esperando o quê?</span
                     >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-3.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl text-violeta-100 font-semibold leading-none"
-                                        >Marvin
-                                        McKinney</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
+                </h2>
+                <p
+                    class="max-w-6xl text-2xl text-violeta-100 mx-auto"
+                >
+                    Agora que você conhece os benefícios do
+                    método "100 Ansiedade", gostaria de
+                    oferecer a você uma oportunidade única
+                    de transformar sua vida de uma vez por
+                    todas. Ao se inscrever hoje, você terá
+                    acesso a um programa completo e
+                    estruturado, que combina as melhores
+                    práticas de tratamento para a ansiedade,
+                    superando as limitações de outros
+                    métodos como remédios e sessões com
+                    psicólogos.
+                </p>
+                <button
+                    class="focus:ring-violeta-300 mt-12 leading-[15px] hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl pt-2 pb-5 px-6 font-semibold border rounded-2xl focus:ring transition ease-in-out duration-200"
+                    type="button"
+                >
+                    <span class="text-lg text-violeta-200"
+                        >Não Vou Esperar Mais</span
                     >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-3.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl font-semibold leading-none text-violeta-100"
-                                        >Marvin
-                                        McKinney</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-300 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
+                    <span
+                        class="text-shadow-violeta block text-2xl uppercase leading-[15px]"
+                        >Quero vencer a ansiedade
+                        agora!</span
                     >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-1.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl font-semibold text-violeta-100 leading-none"
-                                        >Jerome Bell</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-violeta-200 text-sm mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-4.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl text-violeta-100 font-semibold leading-none"
-                                        >Kathryn
-                                        Murphy</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-5.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl font-semibold text-violeta-100 leading-none"
-                                        >Kristin
-                                        Watson</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-3.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl text-violeta-100 font-semibold leading-none"
-                                        >Marvin
-                                        McKinney</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-15 flex justify-center">
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-3.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl text-violeta-100 font-semibold leading-none"
-                                        >Marvin
-                                        McKinney</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-lg shadow-black/20"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-7.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl font-semibold text-violeta-100 leading-none"
-                                        >Jerome Bell</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-black/20 shadow-lg"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-5.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl font-semibold text-violeta-100 leading-none"
-                                        >Albert Flores</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-black/20 shadow-lg"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-6.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl text-violeta-100 font-semibold leading-none"
-                                        >Kristin
-                                        Watson</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="w-full max-w-sm flex-shrink-0 mr-8"
-                    >
-                        <div
-                            class="rounded-3xl p-6 bg-azulclaro-700 shadow-black/20 shadow-lg"
-                        >
-                            <div
-                                class="flex mb-6 items-center"
-                            >
-                                <img
-                                    class="w-15 h-15 block rounded-full"
-                                    src="/src/assets/avatar-group-1.png"
-                                    alt=""
-                                />
-                                <div class="ml-5">
-                                    <span
-                                        class="block text-xl text-violeta-100 font-semibold leading-none"
-                                        >Brooklyn
-                                        Simmons</span
-                                    >
-                                </div>
-                            </div>
-                            <p
-                                class="text-sm text-violeta-200 mb-6"
-                            >
-                                It was a pleasure working
-                                with the Saturn. They
-                                understood the brief
-                                correctly and delivered
-                                great designs exceeding the
-                                expectations.
-                            </p>
-                            <div class="flex items-center">
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                                <img
-                                    class="block mr-1.5"
-                                    src="/src/assets/star.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="px-5 mt-10">
-                    <div
-                        class="flex items-center justify-center"
-                    >
-                        <button
-                            class="inline-block mr-1 w-7 h-1 bg-azulescuro-200"
-                        ></button>
-                        <button
-                            class="inline-block mr-1 w-7 h-1 bg-gray-400 hover:bg-orange-300"
-                        ></button>
-                        <button
-                            class="inline-block w-7 h-1 bg-gray-400 hover:bg-orange-300"
-                        ></button>
-                    </div>
-                </div>
+                </button>
             </div>
         </section>
-
         <section
+            id="depoimentos"
             class="relative py-24 lg:py-28 lg:pb-36 bg-azulescuro-900 overflow-hidden"
         >
             <div class="container px-4 mx-auto">
@@ -2059,7 +1422,7 @@
                 >
                     <div class="w-auto p-2">
                         <p
-                            class="max-w-5xl text-xl text-violeta-200 tracking-tight"
+                            class="max-w-5xl text-2xl text-violeta-200"
                         >
                             Conheça as histórias
                             inspiradoras de pessoas reais
@@ -2233,7 +1596,7 @@
                             >
                                 <div class="w-auto p-1.5">
                                     <img
-                                        src="basko-assets/images/testimonials/avatar-md.png"
+                                        src="/src/assets/avatar-group-1.png"
                                         alt=""
                                     />
                                 </div>
@@ -2350,7 +1713,7 @@
                             >
                                 <div class="w-auto p-1.5">
                                     <img
-                                        src="basko-assets/images/testimonials/avatar-md2.png"
+                                        src="/src/assets/avatar-group-3.png"
                                         alt=""
                                     />
                                 </div>
@@ -2467,7 +1830,7 @@
                             >
                                 <div class="w-auto p-1.5">
                                     <img
-                                        src="basko-assets/images/testimonials/avatar-md3.png"
+                                        src="/src/assets/avatar-group-4.png"
                                         alt=""
                                     />
                                 </div>
@@ -2586,7 +1949,7 @@
                             >
                                 <div class="w-auto p-1.5">
                                     <img
-                                        src="basko-assets/images/testimonials/avatar-md.png"
+                                        src="/src/assets/avatar-group-5.png"
                                         alt=""
                                     />
                                 </div>
@@ -2703,7 +2066,7 @@
                             >
                                 <div class="w-auto p-1.5">
                                     <img
-                                        src="basko-assets/images/testimonials/avatar-md2.png"
+                                        src="/src/assets/avatar-group-6.png"
                                         alt=""
                                     />
                                 </div>
@@ -2820,7 +2183,7 @@
                             >
                                 <div class="w-auto p-1.5">
                                     <img
-                                        src="basko-assets/images/testimonials/avatar-md3.png"
+                                        src="/src/assets/avatar-group-7.png"
                                         alt=""
                                     />
                                 </div>
@@ -2838,19 +2201,20 @@
             </div>
         </section>
         <section
-            class="bg-azulclaro-100 relative pt-20 pb-36 overflow-hidden"
+            id="promocao"
+            class="bg-azulclaro-100 relative pt-20 pb-24 overflow-hidden"
         >
             <div
                 class="relative z-10 container px-4 mx-auto"
             >
                 <h2
-                    class="mb-2 text-3xl lg:text-5xl text-azulescuro-900 font-bold leading-none text-center mx-auto"
+                    class="text-3xl lg:text-6xl font-semibold text-violet-700 leading-none text-center mx-auto"
                 >
                     O Pacote Completo para Superar a
                     Ansiedade
                 </h2>
                 <h3
-                    class="text-3xl lg:text-3xl text-center mt-3 text-azulescuro-500 mb-6 font-semibold"
+                    class="text-3xl lg:text-3xl text-center mt-4 text-azulescuro-500 mb-8 font-semibold"
                 >
                     Descubra como conquistar uma mente
                     tranquila e viver plenamente,
@@ -2859,7 +2223,7 @@
                     transformação pessoal.
                 </h3>
                 <p
-                    class="text-azulescuro-200 mb-20 text-lg text-center font-medium leading-normal mx-auto"
+                    class="text-azulescuro-200 mb-20 text-xl text-center font-medium leading-normal mx-auto"
                 >
                     Não deixe a ansiedade controlar sua
                     vida. Apresentamos o pacote completo
@@ -2873,6 +2237,7 @@
                     resiliência emocional e retomar o
                     controle da sua vida.
                 </p>
+
                 <div
                     class="w-full mx-auto grid grid-cols-3 gap-4 relative items-stretch"
                 >
@@ -2880,7 +2245,7 @@
                         class="col-span-1 flex flex-col items-stretch"
                     >
                         <div
-                            class="border-gray-300 bg-white rounded-3xl shadow-2xl bg-opacity-70 border items-stretch h-full"
+                            class="border-gray-300 bg-azulclaro-100 rounded-3xl shadow-2xl bg-opacity-70 border items-stretch h-full flex flex-col"
                             style="
                                 backdrop-filter: blur(
                                     100px
@@ -2892,34 +2257,33 @@
                             >
                                 <div class="py-7 px-9">
                                     <h3
-                                        class="text-azulescuro-500 text-center mb-3 text-xl font-bold leading-snug"
+                                        class="text-azulclaro-900 text-center mb-4 text-xl font-bold leading-snug"
                                     >
                                         <span
-                                            class="block text-azulescuro-900 text-2xl"
+                                            class="block text-azulescuro-900 text-4xl"
                                             >Bônus</span
                                         >
                                         Os segredos do
                                         pensamento positivo
                                     </h3>
-                                    <p
-                                        class="text-azulescuro-200 font-medium leading-relaxed"
-                                    >
-                                        Lorem ipsum dolor
-                                        sit amet, consect
-                                        etur adipiscing
-                                        maror.
-                                    </p>
+                                    <img
+                                        class="h-64 mx-auto"
+                                        src="/src/assets/bonus12d.png"
+                                        alt=""
+                                    />
                                 </div>
                             </div>
-                            <div class="pt-8 pb-9 px-9">
+                            <div
+                                class="pt-8 pb-9 px-9 text-azulescuro-900 flex flex-col"
+                            >
                                 <p
                                     class="text-gray-600 mb-6 font-medium leading-relaxed"
                                 >
-                                    Features included:
+                                    Destaques do produto:
                                 </p>
                                 <ul class="mb-11">
                                     <li
-                                        class="mb-4 flex items-center"
+                                        class="mb-4 flex items-start"
                                     >
                                         <svg
                                             class="mr-2"
@@ -2938,9 +2302,37 @@
                                             ></path>
                                         </svg>
                                         <p
-                                            class="font-semibold leading-normal"
+                                            class="font-semibold -mt-[3px] leading-normal"
                                         >
-                                            3 Team Members
+                                            E-book completo
+                                        </p>
+                                    </li>
+                                    <li
+                                        class="mb-4 flex items-start"
+                                    >
+                                        <svg
+                                            class="mr-2"
+                                            width="20"
+                                            height="20"
+                                            viewbox="0 0 20 20"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
+                                                stroke="#4F46E5"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            ></path>
+                                        </svg>
+                                        <p
+                                            class="font-semibold -mt-[3px] leading-normal"
+                                        >
+                                            Sete maneiras de
+                                            impulsionar uma
+                                            mentalidade
+                                            positiva
                                         </p>
                                     </li>
                                     <li
@@ -2965,7 +2357,9 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            1200+ UI Blocks
+                                            Enfrentando a
+                                            rejeição
+                                            positivamente
                                         </p>
                                     </li>
                                     <li
@@ -2990,62 +2384,29 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            10 GB Cloud
-                                            Storage
-                                        </p>
-                                    </li>
-                                    <li
-                                        class="mb-4 flex items-center"
-                                    >
-                                        <svg
-                                            class="mr-2"
-                                            width="20"
-                                            height="20"
-                                            viewbox="0 0 20 20"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-                                                stroke="#4F46E5"
-                                                stroke-width="2"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            ></path>
-                                        </svg>
-                                        <p
-                                            class="font-semibold leading-normal"
-                                        >
-                                            Individual Email
-                                            Account
-                                        </p>
-                                    </li>
-                                    <li
-                                        class="flex items-center"
-                                    >
-                                        <svg
-                                            class="mr-2"
-                                            width="20"
-                                            height="20"
-                                            viewbox="0 0 20 20"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-                                                stroke="#4F46E5"
-                                                stroke-width="2"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            ></path>
-                                        </svg>
-                                        <p
-                                            class="font-semibold leading-normal"
-                                        >
-                                            Premium Support
+                                            Meditação e
+                                            pensamento
+                                            positivo
                                         </p>
                                     </li>
                                 </ul>
+                            </div>
+                            <div
+                                class="px-9 mt-auto mb-10 text-center text-3xl text-azulescuro-900 font-semibold"
+                            >
+                                De R$
+                                <span class="line-through"
+                                    >50,00</span
+                                >
+
+                                <span
+                                    class="text-shadow-violeta block font-extrabold text-5xl my-3 text-violeta-900"
+                                    >Totalmente Grátis</span
+                                ><span
+                                    class="inline-block leading-tight text-2xl"
+                                    >somente na promoção por
+                                    tempo limitado</span
+                                >
                             </div>
                         </div>
                     </div>
@@ -3054,7 +2415,7 @@
                         class="col-span-1 flex flex-col h-full items-stretch"
                     >
                         <div
-                            class="border-gray-300 bg-white rounded-3xl shadow-2xl bg-opacity-70 border items-stretch h-full"
+                            class="border-gray-300 bg-azulclaro-100 rounded-3xl shadow-2xl bg-opacity-70 border items-stretch h-full flex flex-col"
                             style="
                                 backdrop-filter: blur(
                                     100px
@@ -3066,30 +2427,29 @@
                             >
                                 <div class="py-7 px-9">
                                     <h3
-                                        class="text-azulescuro-500 text-center mb-3 text-xl font-bold leading-snug"
+                                        class="text-azulclaro-900 text-center mb-4 text-xl font-bold leading-snug"
                                     >
                                         <span
-                                            class="block text-azulescuro-900 text-2xl"
+                                            class="block text-azulescuro-900 text-4xl"
                                             >Curso
                                             Completo</span
                                         >
                                         Método sem ansiedade
                                     </h3>
-                                    <p
-                                        class="text-azulescuro-200 font-medium leading-relaxed"
-                                    >
-                                        Lorem ipsum dolor
-                                        sit amet, consect
-                                        etur adipiscing
-                                        maror.
-                                    </p>
+                                    <img
+                                        class="h-64 mx-auto"
+                                        src="/src/assets/principal2d.png"
+                                        alt=""
+                                    />
                                 </div>
                             </div>
-                            <div class="pt-8 pb-9 px-9">
+                            <div
+                                class="pt-8 px-9 text-azulescuro-900"
+                            >
                                 <p
                                     class="text-gray-600 mb-6 font-medium leading-relaxed"
                                 >
-                                    Features included:
+                                    Destaques do produto:
                                 </p>
                                 <ul class="mb-11">
                                     <li
@@ -3114,7 +2474,8 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            3 Team Members
+                                            Video aulas
+                                            gravadas
                                         </p>
                                     </li>
                                     <li
@@ -3139,7 +2500,7 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            1200+ UI Blocks
+                                            E-book completo
                                         </p>
                                     </li>
                                     <li
@@ -3164,8 +2525,8 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            10 GB Cloud
-                                            Storage
+                                            Técnicas de
+                                            respiração
                                         </p>
                                     </li>
                                     <li
@@ -3190,8 +2551,60 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            Individual Email
-                                            Account
+                                            Técnicas de
+                                            meditação
+                                        </p>
+                                    </li>
+                                    <li
+                                        class="flex items-center mb-4"
+                                    >
+                                        <svg
+                                            class="mr-2"
+                                            width="20"
+                                            height="20"
+                                            viewbox="0 0 20 20"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
+                                                stroke="#4F46E5"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            ></path>
+                                        </svg>
+                                        <p
+                                            class="font-semibold leading-normal"
+                                        >
+                                            Coleção de sons
+                                            bineurais
+                                        </p>
+                                    </li>
+                                    <li
+                                        class="flex items-center mb-4"
+                                    >
+                                        <svg
+                                            class="mr-2"
+                                            width="20"
+                                            height="20"
+                                            viewbox="0 0 20 20"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
+                                                stroke="#4F46E5"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            ></path>
+                                        </svg>
+                                        <p
+                                            class="font-semibold leading-normal"
+                                        >
+                                            Coleção de sons
+                                            white noise
                                         </p>
                                     </li>
                                     <li
@@ -3216,10 +2629,29 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            Premium Support
+                                            Meditações
+                                            guiadas
                                         </p>
                                     </li>
                                 </ul>
+                            </div>
+                            <div
+                                class="px-9 mt-auto mb-10 text-center text-3xl text-azulescuro-900 font-semibold"
+                            >
+                                De R$
+                                <span class="line-through"
+                                    >197,00</span
+                                >
+                                por
+                                <span
+                                    class="text-shadow-violeta block font-extrabold text-5xl my-3 text-violeta-900"
+                                    >Apenas <br />
+                                    R$ 147,00</span
+                                ><span
+                                    class="inline-block leading-tight text-2xl"
+                                    >somente na promoção por
+                                    tempo limitado</span
+                                >
                             </div>
                         </div>
                     </div>
@@ -3227,7 +2659,7 @@
                         class="col-span-1 flex flex-col h-full items-stretch"
                     >
                         <div
-                            class="border-gray-300 bg-white rounded-3xl shadow-2xl bg-opacity-70 border items-stretch h-full"
+                            class="border-gray-300 bg-azulclaro-100 rounded-3xl shadow-2xl bg-opacity-70 border items-stretch h-full flex flex-col"
                             style="
                                 backdrop-filter: blur(
                                     100px
@@ -3239,30 +2671,29 @@
                             >
                                 <div class="py-7 px-9">
                                     <h3
-                                        class="text-azulescuro-500 text-center mb-3 text-xl font-bold leading-snug"
+                                        class="text-azulclaro-900 text-center mb-3 text-xl font-bold leading-snug"
                                     >
                                         <span
-                                            class="block text-azulescuro-900 text-2xl"
+                                            class="block text-azulescuro-900 text-4xl"
                                             >Bônus</span
                                         >
                                         Sete dias de
                                         gratidão.
                                     </h3>
-                                    <p
-                                        class="text-azulescuro-200 font-medium leading-relaxed"
-                                    >
-                                        Lorem ipsum dolor
-                                        sit amet, consect
-                                        etur adipiscing
-                                        maror.
-                                    </p>
+                                    <img
+                                        class="h-64 mx-auto"
+                                        src="/src/assets/bonus22d.jpg"
+                                        alt=""
+                                    />
                                 </div>
                             </div>
-                            <div class="pt-8 pb-9 px-9">
+                            <div
+                                class="pt-8 pb-9 px-9 text-azulescuro-900"
+                            >
                                 <p
                                     class="text-gray-600 mb-6 font-medium leading-relaxed"
                                 >
-                                    Features included:
+                                    Destaques do produto:
                                 </p>
                                 <ul class="mb-11">
                                     <li
@@ -3287,7 +2718,7 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            3 Team Members
+                                            E-book completo
                                         </p>
                                     </li>
                                     <li
@@ -3312,7 +2743,8 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            1200+ UI Blocks
+                                            Positividade
+                                            Consciente
                                         </p>
                                     </li>
                                     <li
@@ -3337,8 +2769,8 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            10 GB Cloud
-                                            Storage
+                                            Afirmações
+                                            Poderosas
                                         </p>
                                     </li>
                                     <li
@@ -3363,57 +2795,338 @@
                                         <p
                                             class="font-semibold leading-normal"
                                         >
-                                            Individual Email
-                                            Account
-                                        </p>
-                                    </li>
-                                    <li
-                                        class="flex items-center"
-                                    >
-                                        <svg
-                                            class="mr-2"
-                                            width="20"
-                                            height="20"
-                                            viewbox="0 0 20 20"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-                                                stroke="#4F46E5"
-                                                stroke-width="2"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            ></path>
-                                        </svg>
-                                        <p
-                                            class="font-semibold leading-normal"
-                                        >
-                                            Premium Support
+                                            Visualização
+                                            Negativa
+                                            Transformadora
                                         </p>
                                     </li>
                                 </ul>
+                            </div>
+                            <div
+                                class="px-9 mt-auto mb-10 text-center text-3xl text-azulescuro-900 font-semibold"
+                            >
+                                De R$
+                                <span class="line-through"
+                                    >50,00</span
+                                >
+
+                                <span
+                                    class="text-shadow-violeta block font-extrabold text-5xl my-3 text-violeta-900"
+                                    >Totalmente Grátis</span
+                                >
+                                <span
+                                    class="inline-block leading-tight text-2xl"
+                                    >somente na promoção por
+                                    tempo limitado</span
+                                >
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div
-                class="bg-azulescuro-900 absolute bottom-0 left-0 w-full py-64"
+                class="bg-azulescuro-900 absolute bottom-0 left-0 w-full py-72"
             ></div>
         </section>
+        <section class="bg-azulescuro-900">
+            <div class="container mx-auto pb-28">
+                <div
+                    class="flex flex-col justify-center items-center"
+                >
+                    <h2
+                        class="font-semibold text-violeta-100 text-3xl lg:text-6xl mb-6"
+                    >
+                        Promoção Imperdível
+                    </h2>
+                    <p
+                        class="text-center text-2xl text-violeta-300"
+                    >
+                        A ansiedade não precisa mais
+                        controlar sua vida. Com o método
+                        "100 ansiedade", você terá todas as
+                        ferramentas e métodos necessários
+                        para superar a ansiedade de uma vez
+                        por todas. Não deixe essa
+                        oportunidade passar. Clique no botão
+                        abaixo para se inscrever agora mesmo
+                        e iniciar sua jornada rumo a uma
+                        vida livre de ansiedade. Acredite em
+                        si mesmo(a) e invista em seu
+                        bem-estar. Seu futuro livre de
+                        ansiedade começa aqui.
+                    </p>
+                    <img
+                        src="/src/assets/completo.png"
+                        alt=""
+                    />
+                    <h3
+                        class="text-shadow-azulescuro text-center text-3xl lg:text-5xl text-violeta-800 font-extrabold uppercase"
+                    >
+                        Comprando agora
+                        <span
+                            class="block lowercase text-violeta-300 font-medium mb-10 mt-3"
+                            ><span class="uppercase">V</span
+                            >ocê leva esse pacote incrível
+                            pela metade do preço!</span
+                        >
+                    </h3>
+                    <div
+                        class="w-full flex justify-center items-center space-x-10 py-6 mb-10"
+                    >
+                        <img
+                            class="h-32"
+                            src="/src/assets/seta2.svg"
+                            alt=""
+                        />
+                        <p
+                            class="text-4xl font-medium text-violeta-400 text-center"
+                        >
+                            De
+                            <span
+                                class="line-through font-normal"
+                                >R$ 297,00</span
+                            >
+                            <span
+                                class="block text-3xl my-2"
+                                >por apenas</span
+                            >
+                            <span
+                                class="text-shadow-azulescuro text-7xl block font-bold"
+                                >R$ 147,00</span
+                            >
+                        </p>
+                        <img
+                            class="h-32 rotate-180"
+                            src="/src/assets/seta2.svg"
+                            alt=""
+                        />
+                    </div>
+
+                    <button
+                        class="focus:ring-violeta-300 leading-[15px] hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl pt-2 pb-5 px-6 font-semibold border rounded-2xl focus:ring transition ease-in-out duration-200"
+                        type="button"
+                    >
+                        <span
+                            class="text-lg text-violeta-200"
+                            >Sou inteligente</span
+                        >
+                        <span
+                            class="text-shadow-violeta block text-2xl uppercase leading-[15px]"
+                            >Quero aproveitar a
+                            promoção</span
+                        >
+                    </button>
+                </div>
+            </div>
+        </section>
         <section
-            class="py-20 lg:bg-contain bg-top bg-no-repeat"
-            style="
-                background-image: url('/src/assets/intersect.svg');
-            "
+            class="bg-cover bg-[url('/src/assets/wave.svg')]"
+        >
+            <div
+                class="py-24 container mx-auto text-center"
+            >
+                <h2
+                    class="text-3xl lg:text-7xl text-violet-700 font-extrabold mb-10"
+                >
+                    Atenção
+                    <span class="block text-azulescuro-500"
+                        ><span class="uppercase">P</span
+                        >romoçao por tempo limitado</span
+                    >
+                    <span
+                        class="text-azulescuro-200 text-3xl inline-block leading-tight mt-3"
+                        >Garanta sua vaga no método "100
+                        Ansiedade" até 30 de julho e
+                        transforme sua vida de uma vez por
+                        todas!</span
+                    >
+                </h2>
+
+                <div
+                    class="mx-auto text-center bg-azulclaro-500 shadow-xl shadow-azulescuro-900/40 w-fit rounded-xl"
+                >
+                    <p
+                        class="bg-azulescuro-900 w-full text-azulclaro-200 py-5 text-3xl px-28 rounded-t-xl font-bold uppercase tracking-wide"
+                    >
+                        Tempo restante
+                    </p>
+                    <div
+                        class="my-10 px-16 flex justify-center gap-3 md:gap-8"
+                    >
+                        <div>
+                            <div
+                                class="rounded-lg bg-azulclaro-300 shadow-md shadow-azulescuro-900/50 flex flex-col items-center justify-center relative"
+                            >
+                                <h1
+                                    id="days"
+                                    class="text-azulescuro-900 font-medium px-6 py-6 text-7xl"
+                                ></h1>
+                                <p
+                                    class="mt-auto py-3 text-azulclaro-200 rounded-b-lg bg-azulescuro-900 w-full uppercase font-bold tracking-wider"
+                                >
+                                    Dias
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div
+                                class="rounded-lg bg-azulclaro-300 shadow-md shadow-azulescuro-900/50 flex flex-col items-center justify-center relative"
+                            >
+                                <h1
+                                    id="hours"
+                                    class="text-azulescuro-900 font-medium px-6 py-6 text-7xl"
+                                ></h1>
+                                <p
+                                    class="mt-auto py-3 text-azulclaro-200 rounded-b-lg bg-azulescuro-900 w-full uppercase font-bold tracking-wider"
+                                >
+                                    Horas
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div
+                                class="rounded-lg bg-azulclaro-300 shadow-md shadow-azulescuro-900/50 flex flex-col items-center justify-center relative"
+                            >
+                                <h1
+                                    id="minutes"
+                                    class="text-azulescuro-900 font-medium px-6 py-6 text-7xl"
+                                ></h1>
+                                <p
+                                    class="mt-auto py-3 text-azulclaro-200 rounded-b-lg bg-azulescuro-900 w-full uppercase font-bold tracking-wider"
+                                >
+                                    Minutos
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div
+                                class="rounded-lg bg-azulclaro-300 shadow-md shadow-azulescuro-900/50 flex flex-col items-center justify-center relative"
+                            >
+                                <h1
+                                    id="seconds"
+                                    class="text-azulescuro-900 font-medium px-6 py-6 text-7xl"
+                                ></h1>
+                                <p
+                                    class="mt-auto py-3 text-azulclaro-200 rounded-b-lg bg-azulescuro-900 w-full uppercase font-bold tracking-wider"
+                                >
+                                    Segundos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p
+                        class="w-full bg-azulescuro-900 text-azulclaro-200 text-2xl py-3 rounded-b-lg uppercase font-bold"
+                    >
+                        Restam apenas
+                        <span
+                            class="block bg-azulclaro-500 my-3 py-2 text-azulescuro-900 text-5xl"
+                            >30</span
+                        ><span
+                            >Vagas das 100 disponíveis</span
+                        >
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section
+            id="garantia"
+            class="bg-azulclaro-900 relative z-10"
+        >
+            <div class="mx-auto container">
+                <div
+                    class="flex flex-wrap h-full py-10 items-center"
+                >
+                    <div class="w-1/3">
+                        <img
+                            class="h-72 mx-auto"
+                            src="/src/assets/selo.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="w-2/3">
+                        <h2
+                            class="mb-6 text-violeta-100 text-3xl lg:text-6xl font-semibold"
+                        >
+                            Garantia Incondicional
+                        </h2>
+                        <p
+                            class="text-violeta-200 mb-10 text-2xl"
+                        >
+                            Para garantir que você se sinta
+                            totalmente seguro em sua
+                            decisão, estamos oferecendo uma
+                            garantia de satisfação de 7
+                            dias. Se, por qualquer motivo,
+                            você não estiver completamente
+                            satisfeito com o método, basta
+                            entrar em contato conosco dentro
+                            desse período, e reembolsaremos
+                            seu investimento sem
+                            questionamentos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="shadow-t-md shadow-back relative bg-azulescuro-900 w-full z-20"
+        >
+            <div
+                class="container mx-auto text-center py-16"
+            >
+                <h2
+                    class="mb-6 text-violeta-700 text-3xl lg:text-6xl font-semibold"
+                >
+                    Última Chance
+                    <span class="block text-violeta-200"
+                        >Inscreva-se agora e garanta sua
+                        vaga!</span
+                    >
+                </h2>
+                <p
+                    class="text-center text-violeta-300 text-2xl"
+                >
+                    Esta é a sua última chance de aproveitar
+                    a promoção imperdível do curso "100
+                    Ansiedade". Restam apenas algumas vagas
+                    disponíveis e o prazo está se esgotando
+                    rapidamente. Não perca a oportunidade de
+                    aprender estratégias eficazes para
+                    controlar a ansiedade e transformar sua
+                    vida para melhor. Aproveite agora mesmo
+                    essa oferta por tempo limitado e garanta
+                    sua vaga antes que seja tarde demais.
+                    Clique abaixo e comece sua jornada em
+                    direção a uma vida mais serena e
+                    equilibrada!
+                </p>
+                <button
+                    class="focus:ring-violeta-300 mt-10 leading-[15px] hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl pt-2 pb-5 px-6 font-semibold border rounded-2xl focus:ring transition ease-in-out duration-200"
+                    type="button"
+                >
+                    <span class="text-lg text-violeta-200"
+                        >Sou inteligente</span
+                    >
+                    <span
+                        class="text-shadow-violeta block text-2xl uppercase leading-[15px]"
+                        >Quero garantir minha vaga</span
+                    >
+                </button>
+            </div>
+        </section>
+        <section
+            id="perguntas"
+            class="pt-20 bg-cover bg-[url('/src/assets/wave.svg')]"
         >
             <div class="container mx-auto px-4">
                 <div
-                    class="max-w-xl mx-auto mb-12 text-center"
+                    class="max-w-2xl mx-auto mb-12 text-center"
                 >
                     <h2
-                        class="font-heading text-azulescuro-900 mb-4 text-3xl lg:text-5xl font-bold"
+                        class="font-heading text-azulescuro-900 mb-4 text-3xl lg:text-6xl font-semibold"
                     >
                         Perguntas Frequentes
                     </h2>
@@ -3637,7 +3350,7 @@
                     </ul>
                 </div>
                 <div
-                    class="bg-azulclaro-900 relative mt-14 -mb-40 py-16 px-4 md:px-8 lg:px-16 rounded-md overflow-hidden shadow-md"
+                    class="bg-azulclaro-900 relative z-20 mt-14 -mb-40 py-16 px-4 md:px-8 lg:px-16 rounded-md overflow-hidden shadow-md"
                 >
                     <div
                         class="relative max-w-max mx-auto text-center"
@@ -3661,7 +3374,153 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-azulescuro-900 h-64"></div>
+            <div
+                class="bg-azulescuro-900 pt-64 z-0 relative"
+            >
+                <div class="container px-4 mx-auto">
+                    <div
+                        class="flex flex-wrap justify-between items-center pb-10"
+                    >
+                        <div class="">
+                            <a href="#">
+                                <img
+                                    src="/src/assets/shuffle-ux-light.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="max-w-6xl">
+                            <ul
+                                class="flex flex-wrap items-center space-x-8"
+                            >
+                                <li>
+                                    <a
+                                        class="text-lg text-violeta-200 hover:text-violeta-300"
+                                        href="#sobre"
+                                        >Sobre</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-violeta-200 hover:text-violeta-400 text-lg"
+                                        href="#solucao"
+                                        >Solução</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-violeta-200 hover:text-violeta-400 text-lg"
+                                        href="#beneficios"
+                                        >Benefícios</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-violeta-200 hover:text-violeta-400 text-lg"
+                                        href="#depoimentos"
+                                        >Depoimentos</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-violeta-200 hover:text-violeta-400 text-lg"
+                                        href="#promocao"
+                                        >Promoção</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-violeta-200 hover:text-violeta-400 text-lg"
+                                        href="#bonus"
+                                        >Bônus</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-violeta-200 hover:text-violeta-400 text-lg"
+                                        href="#garantia"
+                                        >Garantia</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="text-violeta-200 hover:text-violeta-400 text-lg"
+                                        href="#perguntas"
+                                        >Perguntas
+                                        Frequentes</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <div
+                                class="flex flex-wrap space-x-2"
+                            >
+                                <div class="">
+                                    <a href="#">
+                                        <div
+                                            class="flex items-center justify-center w-8 h-8 border border-violeta-200 hover:border-violeta-300 rounded-full"
+                                        >
+                                            <svg
+                                                width="8"
+                                                height="14"
+                                                viewBox="0 0 8 14"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M5.55736 5.2L5.55736 3.88C5.55736 3.308 5.69631 3 6.66894 3H7.87315V0.800003L6.02052 0.800003C3.70473 0.800003 2.77841 2.252 2.77841 3.88V5.2H0.925781L0.925781 7.4H2.77841L2.77841 14H5.55736L5.55736 7.4H7.59526L7.87315 5.2H5.55736Z"
+                                                    fill="#E2C5FC"
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <a href="#">
+                                        <div
+                                            class="flex items-center justify-center w-8 h-8 border border-violeta-200 hover:border-violeta-300 rounded-full"
+                                        >
+                                            <svg
+                                                width="14"
+                                                height="11"
+                                                viewBox="0 0 14 11"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M13.6655 1.39641C13.1901 1.60149 12.6728 1.74907 12.1399 1.80656C12.6931 1.47788 13.1074 0.958619 13.3051 0.346204C12.7859 0.655036 12.2172 0.871595 11.6241 0.986274C11.3762 0.721276 11.0764 0.510168 10.7434 0.366102C10.4104 0.222036 10.0512 0.1481 9.68836 0.148902C8.22024 0.148902 7.03953 1.33893 7.03953 2.79928C7.03953 3.00436 7.06439 3.20943 7.10478 3.40673C4.90649 3.29177 2.94589 2.24155 1.64246 0.633614C1.40495 1.03927 1.2805 1.50117 1.28203 1.97123C1.28203 2.89094 1.74965 3.70191 2.46274 4.17885C2.0425 4.1623 1.63211 4.0468 1.26494 3.84173V3.87435C1.26494 5.16226 2.17533 6.22956 3.38866 6.47502C3.16084 6.5342 2.92649 6.56447 2.69111 6.56513C2.51866 6.56513 2.35554 6.54804 2.19086 6.52474C2.52643 7.57495 3.50362 8.33775 4.66724 8.3626C3.75685 9.07569 2.61654 9.49515 1.37835 9.49515C1.15619 9.49515 0.951119 9.48738 0.738281 9.46253C1.91278 10.216 3.30632 10.651 4.80706 10.651C9.67904 10.651 12.345 6.61484 12.345 3.11155C12.345 2.99659 12.345 2.88162 12.3372 2.76666C12.853 2.38914 13.3051 1.92152 13.6655 1.39641Z"
+                                                    fill="#E2C5FC"
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="">
+                                    <a href="#">
+                                        <div
+                                            class="flex items-center justify-center w-8 h-8 border border-violeta-200 hover:border-violeta-300 rounded-full"
+                                        >
+                                            <svg
+                                                width="16"
+                                                height="15"
+                                                viewBox="0 0 16 15"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M8.00094 0.360001C6.09046 0.360001 5.85022 0.368801 5.09958 0.402241C4.34894 0.437441 3.83766 0.555361 3.38974 0.729601C2.9199 0.906321 2.49433 1.18353 2.14278 1.54184C1.78468 1.89357 1.50751 2.31909 1.33054 2.7888C1.1563 3.23584 1.0375 3.748 1.00318 4.496C0.969738 5.2484 0.960937 5.48776 0.960937 7.40088C0.960937 9.31224 0.969738 9.5516 1.00318 10.3022C1.03838 11.052 1.1563 11.5633 1.33054 12.0112C1.51094 12.4741 1.75118 12.8666 2.14278 13.2582C2.5335 13.6498 2.92598 13.8909 3.38886 14.0704C3.83766 14.2446 4.34806 14.3634 5.09782 14.3978C5.84934 14.4312 6.0887 14.44 8.00094 14.44C9.91318 14.44 10.1517 14.4312 10.9032 14.3978C11.6521 14.3626 12.1651 14.2446 12.613 14.0704C13.0826 13.8936 13.5078 13.6164 13.8591 13.2582C14.2507 12.8666 14.4909 12.4741 14.6713 12.0112C14.8447 11.5633 14.9635 11.052 14.9987 10.3022C15.0321 9.5516 15.0409 9.31224 15.0409 7.4C15.0409 5.48776 15.0321 5.2484 14.9987 4.49688C14.9635 3.748 14.8447 3.23584 14.6713 2.7888C14.4944 2.31908 14.2172 1.89356 13.8591 1.54184C13.5077 1.1834 13.0821 0.906169 12.6121 0.729601C12.1633 0.555361 11.6512 0.436561 10.9023 0.402241C10.1508 0.368801 9.9123 0.360001 7.99918 0.360001H8.00182H8.00094ZM7.36998 1.62896H8.00182C9.8815 1.62896 10.1041 1.63512 10.846 1.66944C11.5324 1.70024 11.9055 1.81552 12.1537 1.91144C12.4819 2.03904 12.7169 2.19216 12.9633 2.43856C13.2097 2.68496 13.3619 2.91904 13.4895 3.24816C13.5863 3.49544 13.7007 3.86856 13.7315 4.55496C13.7658 5.2968 13.7729 5.51944 13.7729 7.39824C13.7729 9.27704 13.7658 9.50056 13.7315 10.2424C13.7007 10.9288 13.5854 11.301 13.4895 11.5492C13.3766 11.8549 13.1965 12.1313 12.9624 12.3579C12.716 12.6043 12.4819 12.7566 12.1528 12.8842C11.9064 12.981 11.5333 13.0954 10.846 13.127C10.1041 13.1605 9.8815 13.1684 8.00182 13.1684C6.12214 13.1684 5.89862 13.1605 5.15678 13.127C4.47038 13.0954 4.09814 12.981 3.84998 12.8842C3.54418 12.7715 3.26753 12.5916 3.04038 12.3579C2.80608 12.1309 2.62565 11.8543 2.51238 11.5483C2.41646 11.301 2.30118 10.9279 2.27038 10.2415C2.23694 9.49968 2.2299 9.27704 2.2299 7.39648C2.2299 5.5168 2.23694 5.29504 2.27038 4.5532C2.30206 3.8668 2.41646 3.49368 2.51326 3.24552C2.64086 2.91728 2.79398 2.68232 3.04038 2.43592C3.28678 2.18952 3.52086 2.03728 3.84998 1.90968C4.09814 1.81288 4.47038 1.69848 5.15678 1.6668C5.80622 1.63688 6.0579 1.62808 7.36998 1.6272V1.62896ZM11.7594 2.7976C11.6485 2.7976 11.5386 2.81945 11.4361 2.86191C11.3336 2.90436 11.2405 2.96659 11.1621 3.04504C11.0836 3.12348 11.0214 3.21661 10.9789 3.31911C10.9365 3.42161 10.9146 3.53146 10.9146 3.6424C10.9146 3.75334 10.9365 3.8632 10.9789 3.96569C11.0214 4.06819 11.0836 4.16132 11.1621 4.23976C11.2405 4.31821 11.3336 4.38044 11.4361 4.42289C11.5386 4.46535 11.6485 4.4872 11.7594 4.4872C11.9835 4.4872 12.1984 4.3982 12.3568 4.23976C12.5152 4.08133 12.6042 3.86646 12.6042 3.6424C12.6042 3.41835 12.5152 3.20347 12.3568 3.04504C12.1984 2.88661 11.9835 2.7976 11.7594 2.7976ZM8.00182 3.78496C7.52228 3.77748 7.04604 3.86547 6.60084 4.0438C6.15563 4.22214 5.75035 4.48726 5.40859 4.82373C5.06683 5.1602 4.79542 5.5613 4.61016 6.00367C4.4249 6.44604 4.32949 6.92084 4.32949 7.40044C4.32949 7.88004 4.4249 8.35484 4.61016 8.79721C4.79542 9.23958 5.06683 9.64068 5.40859 9.97715C5.75035 10.3136 6.15563 10.5787 6.60084 10.7571C7.04604 10.9354 7.52228 11.0234 8.00182 11.0159C8.95093 11.0011 9.85616 10.6137 10.5221 9.93726C11.1881 9.26084 11.5613 8.34967 11.5613 7.40044C11.5613 6.45121 11.1881 5.54004 10.5221 4.86362C9.85616 4.1872 8.95093 3.79977 8.00182 3.78496ZM8.00182 5.05304C8.62427 5.05304 9.22123 5.30031 9.66137 5.74045C10.1015 6.18059 10.3488 6.77755 10.3488 7.4C10.3488 8.02245 10.1015 8.61941 9.66137 9.05955C9.22123 9.49969 8.62427 9.74696 8.00182 9.74696C7.37937 9.74696 6.78241 9.49969 6.34227 9.05955C5.90213 8.61941 5.65486 8.02245 5.65486 7.4C5.65486 6.77755 5.90213 6.18059 6.34227 5.74045C6.78241 5.30031 7.37937 5.05304 8.00182 5.05304Z"
+                                                    fill="#E2C5FC"
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
 </html>

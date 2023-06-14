@@ -521,3 +521,21 @@ Antigo slider de testemunhos
                 </div>
             </div>
         </section>
+
+
+
+        <p class="text-center">
+                    Esta é a sua última chance de aproveitar
+                    a promoção imperdível do curso "100
+                    Ansiedade". Restam apenas algumas vagas
+                    disponíveis e o prazo está se esgotando
+                    rapidamente. Não perca a oportunidade de
+                    aprender estratégias eficazes para
+                    controlar a ansiedade e transformar sua
+                    vida para melhor. Aproveite agora mesmo
+                    essa oferta por tempo limitado e garanta
+                    sua vaga antes que seja tarde demais.
+                    Clique abaixo e comece sua jornada em
+                    direção a uma vida mais serena e
+                    equilibrada!
+                </p>

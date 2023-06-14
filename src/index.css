@@ -6,4 +6,10 @@
     .text-shadow-blue {
         text-shadow: 3px 3px 4px #00008f;
     }
+    .text-shadow-azulescuro {
+        text-shadow: 3px 3px 4px #000066ff;
+    }
+    .text-shadow-violeta {
+        text-shadow: 1px 1px 2px #9f3df5;
+    }
 }
