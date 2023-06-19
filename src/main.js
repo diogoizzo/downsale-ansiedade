@@ -52,3 +52,47 @@ const updateTimer = () => {
 };
 updateTimer();
 setInterval(updateTimer, 1000);
+
+const btnMobileMenu =
+    document.getElementById("btnMobileMenu");
+const mobileMenu = document.getElementById("mobileMenu");
+
+const faqs = document.getElementById("faq").children;
+console.log(faq);
+
+window.onload = () => {
+    new Glide(".glide", {
+        type: "carousel",
+        autoplay: 2000,
+        perView: 3,
+        breakpoints: {
+            1024: {
+                perView: 2,
+            },
+            600: {
+                perView: 1,
+            },
+        },
+    }).mount();
+    mobileMenu.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+    });
+    btnMobileMenu.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+    });
+    for (const faq of faqs) {
+        faq.addEventListener("click", (e) => {
+            const p = faq.getElementsByTagName("p")[0];
+            for (const nfaq of faqs) {
+                if (
+                    nfaq.getElementsByTagName("p")[0] !== p
+                ) {
+                    nfaq.getElementsByTagName(
+                        "p"
+                    )[0].classList.add("hidden");
+                }
+            }
+            p.classList.toggle("hidden");
+        });
+    }
+};

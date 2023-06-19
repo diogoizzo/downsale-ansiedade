@@ -539,3 +539,883 @@ Antigo slider de testemunhos
                     direção a uma vida mais serena e
                     equilibrada!
                 </p>
+
+
+
+
+                <button
+                        class="focus:ring-violeta-300 leading-[15px] hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl shadow-black/20 hover:shadow-black/40 hover:shadow-2xl pt-2 pb-5 px-6 font-semibold border rounded-2xl focus:ring transition-all ease-in-out duration-200"
+                        type="button"
+                    >
+                        <span
+                            class="text-lg text-violeta-200"
+                            >Sou inteligente</span
+                        >
+                        <span
+                            class="text-shadow-violeta block text-2xl uppercase leading-[15px]"
+                            >Quero aproveitar a
+                            promoção</span
+                        >
+                    </button>
+
+
+
+
+
+
+
+
+
+
+                    <div
+                    class="grid grid-cols-1 lg:grid-cols-3"
+                >
+                    <div
+                        class="w-full flex flex-col items-stretch justify-stretch p-3 h-full relative"
+                    >
+                        <div
+                            class="bg-azulclaro-500 p-6 flex flex-col justify-stretch hover:bg-azulclaro-700 rounded-lg transition duration-200 h-full"
+                        >
+                            <div
+                                class="flex flex-wrap -m-0.5 mb-6"
+                            >
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="mb-6 text-azulclaro-100 tracking-tight"
+                            >
+                                “Eu estava cansado de viver
+                                constantemente em um estado
+                                de preocupação e medo. A
+                                ansiedade estava me
+                                controlando e impedindo que
+                                eu aproveitasse a vida ao
+                                máximo. Foi quando descobri
+                                o curso '100 ansiedade' e
+                                decidi dar uma chance. Posso
+                                dizer que foi a melhor
+                                decisão que já tomei.
+                                Através das técnicas e
+                                estratégias ensinadas no
+                                curso, aprendi a identificar
+                                os gatilhos da ansiedade e a
+                                administrar meus pensamentos
+                                de forma mais positiva.
+                                Hoje, sinto-me mais calmo e
+                                confiante, capaz de lidar
+                                com os desafios da vida de
+                                uma maneira muito mais
+                                equilibrada. O curso mudou
+                                minha perspectiva e me deu
+                                ferramentas poderosas para
+                                viver uma vida livre da
+                                ansiedade”
+                            </p>
+                            <div
+                                class="flex flex-wrap items-center -m-1.5 mt-auto"
+                            >
+                                <div class="w-auto p-1.5">
+                                    <img
+                                        src="/src/assets/avatar-group-1.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="w-auto p-1.5">
+                                    <h3
+                                        class="text-white font-semibold tracking-tight"
+                                    >
+                                        Ana Claudia
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full p-3 h-full flex flex-col relative"
+                    >
+                        <div
+                            class="p-6 bg-azulclaro-500 flex flex-col justify-stretch hover:bg-azulclaro-700 rounded-lg transition duration-200 h-full"
+                        >
+                            <div
+                                class="flex flex-wrap -m-0.5 mb-6"
+                            >
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="mb-6 text-azulclaro-100 tracking-tight"
+                            >
+                                “A ansiedade costumava ser
+                                um obstáculo constante em
+                                minha vida. Eu sentia como
+                                se estivesse preso em um
+                                ciclo interminável de
+                                preocupações e pensamentos
+                                negativos. Foi quando
+                                conheci o curso 'Ansiedade
+                                Zero' que percebi que havia
+                                esperança. Durante o curso,
+                                aprendi a desafiar meus
+                                pensamentos ansiosos e a
+                                cultivar uma mentalidade
+                                mais positiva e
+                                fortalecedora. O suporte e a
+                                orientação da equipe foram
+                                fundamentais para minha
+                                jornada de superação da
+                                ansiedade. Agora, sou capaz
+                                de enfrentar os desafios com
+                                mais calma e confiança, e
+                                finalmente estou vivendo a
+                                vida plena e gratificante
+                                que sempre desejei”
+                            </p>
+                            <div
+                                class="flex flex-wrap items-center -m-1.5 mt-auto"
+                            >
+                                <div class="w-auto p-1.5">
+                                    <img
+                                        src="/src/assets/avatar-group-3.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="w-auto p-1.5">
+                                    <h3
+                                        class="text-white font-semibold tracking-tight"
+                                    >
+                                        Carlos Cardoso
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex-col w-full p-3 h-full flex relative"
+                    >
+                        <div
+                            class="p-6 bg-azulclaro-500 flex flex-col justify-stretch hover:bg-azulclaro-700 rounded-lg transition duration-500 h-full"
+                        >
+                            <div
+                                class="flex flex-wrap -m-0.5 mb-6"
+                            >
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="mb-6 text-azulclaro-100 tracking-tight"
+                            >
+                                “A ansiedade costumava ser
+                                uma sombra constante em
+                                minha vida. Eu estava sempre
+                                preocupada, sentindo-me
+                                sobrecarregada e incapaz de
+                                aproveitar os momentos
+                                presentes. Foi quando ouvi
+                                falar sobre o curso '100
+                                ansiedade' que decidi me
+                                inscrever. O curso me
+                                proporcionou um espaço
+                                seguro para explorar minhas
+                                emoções e aprender técnicas
+                                eficazes para controlar a
+                                ansiedade. Através da
+                                prática de mindfulness e da
+                                implementação de estratégias
+                                práticas, como a
+                                identificação e
+                                reestruturação de
+                                pensamentos negativos, pude
+                                transformar minha relação
+                                com a ansiedade. Hoje, sou
+                                capaz de desfrutar cada
+                                momento com tranquilidade e
+                                gratidão, e finalmente me
+                                sinto no controle da minha
+                                vida.”
+                            </p>
+                            <div
+                                class="flex flex-wrap items-center -m-1.5 mt-auto"
+                            >
+                                <div class="w-auto p-1.5">
+                                    <img
+                                        src="/src/assets/avatar-group-4.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="w-auto p-1.5">
+                                    <h3
+                                        class="text-white font-semibold tracking-tight"
+                                    >
+                                        Maria Cristina
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="realtive w-full p-3 flex flex-col h-full"
+                    >
+                        <div
+                            class="bg-azulclaro-500 flex flex-col justify-stretch p-6 hover:bg-azulclaro-700 rounded-lg transition duration-200 h-full"
+                        >
+                            <div
+                                class="flex flex-wrap -m-0.5 mb-6"
+                            >
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="mb-6 text-azulclaro-100 tracking-tight"
+                            >
+                                “Eu vivia presa em um ciclo
+                                de ansiedade e medo
+                                constante. Cada decisão,
+                                cada interação social,
+                                parecia uma batalha que eu
+                                não conseguia vencer. Quando
+                                descobri o curso 'Ansiedade
+                                Zero', decidi me arriscar e
+                                embarcar nessa jornada de
+                                transformação. As técnicas e
+                                estratégias ensinadas no
+                                curso me ajudaram a
+                                compreender as raízes
+                                profundas da minha ansiedade
+                                e a adotar uma abordagem
+                                holística para superá-la.
+                                Hoje, posso dizer que estou
+                                em um lugar muito diferente.
+                                Aprendi a identificar meus
+                                pensamentos negativos e
+                                substituí-los por
+                                pensamentos mais positivos e
+                                capacitadores. Sinto-me mais
+                                confiante, assertiva e capaz
+                                de enfrentar qualquer
+                                desafio que a vida me
+                                apresente. O curso '100
+                                ansiedade' mudou minha vida
+                                de maneiras que eu jamais
+                                imaginei.”
+                            </p>
+                            <div
+                                class="flex flex-wrap items-center -m-1.5 mt-auto"
+                            >
+                                <div class="w-auto p-1.5">
+                                    <img
+                                        src="/src/assets/avatar-group-5.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="w-auto p-1.5">
+                                    <h3
+                                        class="text-white font-semibold tracking-tight"
+                                    >
+                                        Joana Almeida
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full p-3 h-full flex flex-col"
+                    >
+                        <div
+                            class="p-6 bg-azulclaro-500 flex flex-col justify-stretch hover:bg-azulclaro-700 rounded-lg transition duration-200 h-full"
+                        >
+                            <div
+                                class="flex flex-wrap -m-0.5 mb-6"
+                            >
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="mb-6 text-azulclaro-100 tracking-tight"
+                            >
+                                “Durante anos, lutei contra
+                                a ansiedade em silêncio.
+                                Sentia-me sobrecarregado,
+                                incapaz de desfrutar das
+                                coisas simples da vida e de
+                                me conectar com os outros de
+                                maneira genuína. Quando ouvi
+                                falar sobre o curso '100
+                                ansiedade', decidi que era
+                                hora de buscar ajuda. O
+                                curso superou todas as
+                                minhas expectativas. As
+                                ferramentas e estratégias
+                                ensinadas foram
+                                incrivelmente eficazes para
+                                me ajudar a administrar
+                                minha ansiedade. Aprendi a
+                                importância do autocuidado,
+                                do equilíbrio emocional e da
+                                prática da gratidão diária.
+                                Hoje, posso dizer que estou
+                                vivendo uma vida muito mais
+                                plena e feliz. A ansiedade
+                                ainda pode surgir de vez em
+                                quando, mas agora tenho as
+                                habilidades para lidar com
+                                ela e não deixar que ela me
+                                domine. Recomendo o curso
+                                '100 ansiedade' a qualquer
+                                pessoa que esteja lutando
+                                contra a ansiedade.”
+                            </p>
+                            <div
+                                class="flex flex-wrap items-center -m-1.5 mt-auto"
+                            >
+                                <div class="w-auto p-1.5">
+                                    <img
+                                        src="/src/assets/avatar-group-6.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="w-auto p-1.5">
+                                    <h3
+                                        class="text-white font-semibold tracking-tight"
+                                    >
+                                        Pedro Bastos
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full p-3 relative h-full flex flex-col"
+                    >
+                        <div
+                            class="p-6 bg-azulclaro-500 flex flex-col justify-stretch hover:bg-azulclaro-700 rounded-lg transition duration-500 h-full"
+                        >
+                            <div
+                                class="flex flex-wrap -m-0.5 mb-6"
+                            >
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                                <div class="w-auto p-0.5">
+                                    <svg
+                                        width="18"
+                                        height="19"
+                                        viewBox="0 0 18 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M9.35279 0.730779L11.9212 6.18903L17.6625 7.06451C17.8112 7.08761 17.9344 7.19674 17.9807 7.34619C18.027 7.49563 17.9884 7.65959 17.8809 7.7694L13.7272 12.0171L14.7079 18.0162C14.7337 18.1709 14.6731 18.3275 14.5517 18.4199C14.4302 18.5124 14.2691 18.5246 14.1362 18.4515L9.00059 15.6197L3.86502 18.4523C3.73217 18.5257 3.57094 18.5137 3.44943 18.4212C3.32793 18.3288 3.26734 18.1722 3.29327 18.0174L4.27397 12.0171L0.119103 7.7694C0.0116435 7.65959 -0.027039 7.49563 0.0192579 7.34619C0.0655548 7.19674 0.188839 7.08761 0.337471 7.06451L6.07884 6.18903L8.64838 0.730779C8.71377 0.589643 8.85058 0.5 9.00059 0.5C9.1506 0.5 9.28741 0.589643 9.35279 0.730779Z"
+                                            fill="#FFBB29"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="mb-6 text-azulclaro-100 tracking-tight"
+                            >
+                                “Eu costumava acreditar que
+                                a ansiedade era uma parte
+                                inevitável da minha vida.
+                                Aceitei a ideia de que viver
+                                constantemente preocupado e
+                                estressado era minha
+                                realidade. Mas um dia,
+                                encontrei o curso 'Ansiedade
+                                Zero' e decidi tentar algo
+                                diferente. Foi uma jornada
+                                desafiadora, mas
+                                gratificante. Aprendi a
+                                desafiar meus padrões de
+                                pensamento negativos e a
+                                adotar uma mentalidade mais
+                                positiva. Além disso, o
+                                apoio da comunidade do curso
+                                foi inestimável. Pude
+                                compartilhar minhas
+                                experiências, aprender com
+                                os outros e receber suporte
+                                genuíno durante todo o
+                                processo. Hoje, me sinto
+                                mais calmo, confiante e no
+                                controle da minha vida. O
+                                curso '100 ansiedade' me
+                                mostrou que a mudança é
+                                possível e que todos nós
+                                merecemos viver sem o peso
+                                da ansiedade.”
+                            </p>
+                            <div
+                                class="flex flex-wrap items-center -m-1.5 mt-auto"
+                            >
+                                <div class="w-auto p-1.5">
+                                    <img
+                                        src="/src/assets/avatar-group-7.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="w-auto p-1.5">
+                                    <h3
+                                        class="text-white font-semibold tracking-tight"
+                                    >
+                                        Laura Castro
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
