@@ -1,5 +1,7 @@
 import "./index.css";
 
+import Glide from "@glidejs/glide";
+
 ("use strict");
 
 const HOURS = 1000 * 60 * 60;
@@ -58,22 +60,22 @@ const btnMobileMenu =
 const mobileMenu = document.getElementById("mobileMenu");
 
 const faqs = document.getElementById("faq").children;
-console.log(faq);
+
+new Glide(".glide", {
+    type: "carousel",
+    autoplay: 2000,
+    perView: 3,
+    breakpoints: {
+        1024: {
+            perView: 2,
+        },
+        600: {
+            perView: 1,
+        },
+    },
+}).mount();
 
 window.onload = () => {
-    new Glide(".glide", {
-        type: "carousel",
-        autoplay: 2000,
-        perView: 3,
-        breakpoints: {
-            1024: {
-                perView: 2,
-            },
-            600: {
-                perView: 1,
-            },
-        },
-    }).mount();
     mobileMenu.addEventListener("click", () => {
         mobileMenu.classList.toggle("hidden");
     });

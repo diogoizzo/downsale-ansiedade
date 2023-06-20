@@ -9,6 +9,7 @@
         "cross-env": "^7.0.3",
         "prettier": "^2.5.1",
         "prettier-plugin-tailwindcss": "^0.1.5",
+        "serve": "^14.2.0",
         "vitawind": "^2.2.4",
         "vite": "^2.4.4"
     },
