@@ -1,0 +1,265 @@
+<section class="-mt-20" id="beneficios">
+            <div class="skew skew-top mr-for-radius">
+                <svg
+                    class="h-8 md:h-12 lg:h-20 w-full text-azulescuro-900"
+                    viewbox="0 0 10 10"
+                    preserveaspectratio="none"
+                >
+                    <polygon
+                        fill="#0E1458"
+                        points="0 0 10 10 0 10"
+                    ></polygon>
+                </svg>
+            </div>
+            <div class="skew skew-top ml-for-radius">
+                <svg
+                    class="h-8 md:h-12 lg:h-20 w-full text-azulescuro-900"
+                    viewbox="0 0 10 10"
+                    preserveaspectratio="none"
+                >
+                    <polygon
+                        fill="currentColor"
+                        points="0 10 10 0 10 10"
+                    ></polygon>
+                </svg>
+            </div>
+            <div
+                class="radius-for-skewed py-20 bg-azulescuro-900"
+            >
+                <div class="container mx-auto px-4">
+                    <div class="mb-10 flex flex-wrap">
+                        <div
+                            class="mb-10 lg:mb-0 w-full lg:w-1/2"
+                        >
+                            <div class="max-w-2xl">
+                                <h2
+                                    class="mb-2 text-violeta-100 text-3xl lg:text-6xl font-semibold"
+                                >
+                                    Descubra os Poderosos
+                                    Benefícios do Método 100
+                                    Ansiedade
+                                </h2>
+                                <p
+                                    class="text-violeta-200 text-xl md:text-2xl font-normal mt-6"
+                                >
+                                    Desvende os segredos
+                                    para vencer a ansiedade
+                                    e desfrute de uma vida
+                                    repleta de paz e
+                                    felicidade. Conheça os
+                                    incríveis benefícios que
+                                    nosso curso oferece para
+                                    ajudá-lo a retomar o
+                                    controle de sua mente e
+                                    emoções.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="relative w-full lg:w-1/2"
+                        >
+                            <img
+                                class="relative h-96"
+                                src="/src/assets/capa-principal-2d.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap -mx-4">
+                        <div
+                            class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4"
+                        >
+                            <span
+                                class="border-roxo-300 mb-6 w-12 h-12 flex justify-center items-center bg-violeta-700 rounded text-azulclaro-200 shadow-md shadow-black/50 border-2 font-bold"
+                                >1</span
+                            >
+                            <h3
+                                class="font-heading mb-2 text-2xl font-bold text-violeta-100"
+                            >
+                                Recupere sua paz interior
+                            </h3>
+                            <p
+                                class="text-violeta-200 text-lg md:text-xl"
+                            >
+                                Aprenda técnicas comprovadas
+                                para recuperar sua paz
+                                interior e encontrar
+                                equilíbrio emocional.
+                                Liberte-se das amarras da
+                                ansiedade e viva uma vida
+                                mais serena e tranquila.
+                            </p>
+                        </div>
+
+                        <div
+                            class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4"
+                        >
+                            <span
+                                class="border-roxo-300 mb-6 w-12 h-12 flex justify-center items-center bg-violeta-700 rounded text-azulclaro-200 shadow-md shadow-black/50 border-2 font-bold"
+                                >2</span
+                            >
+                            <h3
+                                class="font-heading mb-2 text-2xl font-bold text-violeta-100"
+                            >
+                                Supere a ansiedade em
+                                momentos críticos
+                            </h3>
+                            <p
+                                class="text-violeta-200 text-lg md:text-xl md:mb-10"
+                            >
+                                Desenvolva estratégias
+                                eficazes para superar a
+                                ansiedade em momentos
+                                críticos, como
+                                apresentações, entrevistas
+                                ou situações desafiadoras.
+                                Ganhe confiança para
+                                enfrentar qualquer desafio
+                                sem deixar a ansiedade
+                                dominar você.
+                            </p>
+                        </div>
+                        <div
+                            class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4"
+                        >
+                            <span
+                                class="border-roxo-300 mb-6 w-12 h-12 flex justify-center items-center bg-violeta-700 rounded text-azulclaro-200 shadow-md shadow-black/50 border-2 font-bold"
+                                >3</span
+                            >
+                            <h3
+                                class="font-heading mb-2 text-2xl font-bold text-violeta-100"
+                            >
+                                Aumente sua energia e
+                                vitalidade
+                            </h3>
+                            <p
+                                class="text-violeta-200 text-lg md:text-xl"
+                            >
+                                Descubra como a ansiedade
+                                pode drenar sua energia e
+                                aprenda técnicas para
+                                recuperar vitalidade. Ganhe
+                                mais energia para aproveitar
+                                a vida ao máximo e realizar
+                                suas atividades com
+                                entusiasmo e vigor.
+                            </p>
+                        </div>
+                        <div
+                            class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4"
+                        >
+                            <span
+                                class="border-roxo-300 mb-6 w-12 h-12 flex justify-center items-center bg-violeta-700 rounded text-azulclaro-200 shadow-md shadow-black/50 border-2 font-bold"
+                                >4</span
+                            >
+                            <h3
+                                class="font-heading mb-2 text-2xl font-bold text-violeta-100"
+                            >
+                                Relacionamentos mais
+                                saudáveis e significativos
+                            </h3>
+                            <p
+                                class="text-violeta-200 text-lg md:text-xl"
+                            >
+                                A ansiedade pode afetar
+                                negativamente seus
+                                relacionamentos pessoais.
+                                Com o curso, você aprenderá
+                                a cultivar relacionamentos
+                                saudáveis e significativos,
+                                construindo conexões mais
+                                profundas e verdadeiras com
+                                as pessoas ao seu redor.
+                            </p>
+                        </div>
+                        <div
+                            class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4"
+                        >
+                            <span
+                                class="border-roxo-300 mb-6 w-12 h-12 flex justify-center items-center bg-violeta-700 rounded text-azulclaro-200 shadow-md shadow-black/50 border-2 font-bold"
+                                >5</span
+                            >
+                            <h3
+                                class="font-heading mb-2 text-2xl font-bold text-violeta-100"
+                            >
+                                Desenvolva resiliência
+                                emocional
+                            </h3>
+                            <p
+                                class="text-violeta-200 text-lg md:text-xl"
+                            >
+                                Torne-se emocionalmente
+                                resiliente ao aprender
+                                técnicas que o(a) ajudarão a
+                                lidar com o estresse e as
+                                adversidades de forma
+                                saudável. Desenvolva a
+                                capacidade de se adaptar e
+                                se recuperar rapidamente
+                                diante dos desafios da vida.
+                            </p>
+                        </div>
+                        <div
+                            class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4"
+                        >
+                            <span
+                                class="border-roxo-300 mb-6 w-12 h-12 flex justify-center items-center bg-violeta-700 rounded text-azulclaro-200 shadow-md shadow-black/50 border-2 font-bold"
+                                >6</span
+                            >
+                            <h3
+                                class="font-heading mb-2 text-2xl font-bold text-violeta-100"
+                            >
+                                Tenha mais controle sobre
+                                sua mente
+                            </h3>
+                            <p
+                                class="text-violeta-200 text-lg md:text-xl"
+                            >
+                                Aprenda a dominar sua mente
+                                e direcionar seus
+                                pensamentos para um estado
+                                de calma e clareza.
+                                Desenvolva habilidades de
+                                controle mental que o(a)
+                                capacitarão a lidar com a
+                                ansiedade de forma eficaz e
+                                retomar o controle sobre sua
+                                vida.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skew skew-bottom mr-for-radius">
+                <svg
+                    class="h-8 md:h-12 lg:h-20 w-full text-azulescuro-900"
+                    viewbox="0 0 10 10"
+                    preserveaspectratio="none"
+                >
+                    <polygon
+                        fill="#0E1458"
+                        points="0 0 10 0 0 10"
+                    ></polygon>
+                </svg>
+            </div>
+            <div
+                class="skew skew-bottom ml-for-radius relative z-20"
+            >
+                <svg
+                    class="h-8 md:h-12 lg:h-20 w-full text-azulescuro-900"
+                    viewbox="0 0 10 10"
+                    preserveaspectratio="none"
+                >
+                    <polygon
+                        fill="#0E1458"
+                        points="0 0 10 0 10 10"
+                    ></polygon>
+                </svg>
+            </div>
+        </section>
+
+
+
+
+
+        
