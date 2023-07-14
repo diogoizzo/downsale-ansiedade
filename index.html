@@ -2,10 +2,34 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src =
+                    "https://www.googletagmanager.com/gtm.js?id=" +
+                    i +
+                    dl;
+                f.parentNode.insertBefore(j, f);
+            })(
+                window,
+                document,
+                "script",
+                "dataLayer",
+                "GTM-K7P3Q8L"
+            );
+        </script>
         <link
             rel="icon"
             type="image/svg+xml"
-            href="favicon.svg"
+            href="/src/assets/icone.svg"
         />
         <meta
             name="viewport"
@@ -22,6 +46,14 @@
         <title>Obrigado!</title>
     </head>
     <body class="bg-azulclaro-100">
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-K7P3Q8L"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
         <section
             class="md:bg-[center_top_-15rem] bg-cover bg-center bg-[url('/src/assets/hero.webp')] relative"
         >
@@ -133,6 +165,7 @@
 
                         <div class="md:inline-block">
                             <button
+                                id="kiwify-upsell-trigger-IRHoFuS"
                                 class="focus:ring-violeta-300 hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl hover:shadow-2xl hover:shadow-violeta-500 shadow-violeta-500/80 pt-2 pb-4 md:pb-5 px-6 font-semibold border rounded-2xl focus:ring transition-all ease-in-out duration-200"
                                 type="button"
                             >
@@ -147,6 +180,19 @@
                                     promoção</span
                                 >
                             </button>
+                            <div
+                                id="kiwify-upsell-cancel-trigger"
+                                style="
+                                    margin-top: 1rem;
+                                    cursor: pointer;
+                                    font-size: 16px;
+                                    text-decoration: underline;
+                                    font-family: sans-serif;
+                                "
+                            >
+                                Não, eu gostaria de ir
+                                direto para o curso
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -806,6 +852,7 @@
 
                     <div class="md:inline-block">
                         <button
+                            id="kiwify-upsell-trigger-IRHoFuS"
                             class="focus:ring-violeta-300 hover:bg-violeta-900 hover:scale-105 border-violeta-600 text-violeta-50 bg-violeta-800 shadow-xl hover:shadow-2xl hover:shadow-violeta-500 shadow-violeta-500/80 pt-2 pb-4 md:pb-5 px-6 font-semibold border rounded-2xl focus:ring transition-all ease-in-out duration-200"
                             type="button"
                         >
@@ -819,6 +866,26 @@
                                 promoção</span
                             >
                         </button>
+                        <div
+                            class="text-center"
+                            id="kiwify-upsell-cancel-trigger"
+                            style="
+                                margin-top: 1rem;
+                                cursor: pointer;
+                                font-size: 16px;
+                                text-decoration: underline;
+                                font-family: sans-serif;
+                            "
+                        >
+                            Não, eu gostaria de ir direto
+                            para o curso
+                        </div>
+
+                        <script>
+                            let nextUpsellURL = "";
+                            let nextDownsellURL = "";
+                        </script>
+                        <script src="https://kiwify-snippets.netlify.app/upsell/upsell.min.js"></script>
                     </div>
                 </div>
             </div>
@@ -835,7 +902,7 @@
                     <div class="md:w-1/3 w-full">
                         <img
                             class="md:h-72 h-52 mx-auto"
-                            src="/src/assets/selo.png"
+                            src="/src/assets/selo.webp"
                             alt=""
                         />
                     </div>
